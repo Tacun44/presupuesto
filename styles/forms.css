@@ -1,0 +1,46 @@
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: #1f2937;
+}
+
+.form-input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.375rem;
+    background-color: white;
+}
+
+.form-input:focus {
+    outline: none;
+    border-color: #2563eb;
+    ring: 2px;
+    ring-color: #93c5fd;
+}
+
+.form-error {
+    color: #dc2626;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.form-grid .span-2 {
+    grid-column: span 2;
+}
+
+.form-container {
+    max-width: 800px;
+    margin: 0 auto;
+}

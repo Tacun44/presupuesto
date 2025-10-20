@@ -31,12 +31,6 @@ function Sidebar({ onNavigate, currentPage }) {
                 items: [
                     { id: 'reports', label: 'Informes', icon: 'fa-chart-bar', path: 'reports' }
                 ]
-            },
-            {
-                title: 'Desarrollo',
-                items: [
-                    { id: 'form-demo', label: 'Demo Formularios', icon: 'fa-database', path: 'form-demo' }
-                ]
             }
         ];
 

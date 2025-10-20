@@ -48,9 +48,6 @@ function App() {
                     return <Payments />;
                 case 'reports':
                     return <Reports />;
-                // New Database Form Demo page
-                case 'form-demo':
-                    return <FormDemo />;
                 default:
                     return <Dashboard />;
             }
